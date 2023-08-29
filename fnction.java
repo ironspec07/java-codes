@@ -3,7 +3,7 @@ public class fnction {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("1-sum of odd numbers till n \n"+"2-greater number of two numbers \n"+"3-circumference from radius");
-        System.out.println("4-eligible to vote \n"+"5-power of x to m");
+        System.out.println("4-eligible to vote \n"+"5-power of x to m \n"+"6-To check even ");
         int n= sc.nextInt();
         switch (n){
             case 1:
@@ -35,6 +35,14 @@ public class fnction {
                 double x=sc.nextDouble();
                 double m=sc.nextDouble();
                 System.out.println("power of x to m is = "+power(x,m));
+                break;
+            case 6:
+                System.out.println("enter a number to check for even");
+                int num= sc.nextInt();
+                if (isEven(num)==true)
+                    System.out.println("even number");
+                else
+                    System.out.println("odd number");
                 break;
 
             default:
@@ -71,7 +79,14 @@ public class fnction {
             return 0;
     }
     public static double power(double a,double b){
+
         return Math.pow(a,b);
+    }
+    public static boolean isEven(int a){
+        if (a%2==0)
+            return true;
+        else
+            return false;
     }
 
 }
