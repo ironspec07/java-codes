@@ -19,5 +19,6 @@ public class Pass_Fail {
         }
         else
             System.out.println("invalid input");
+            sc.close();
     }
 }

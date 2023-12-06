@@ -10,5 +10,6 @@ public class powerOfTwo{
         else {
             System.out.println("not a power of two");
         }
+        sc.close();
     }
 }

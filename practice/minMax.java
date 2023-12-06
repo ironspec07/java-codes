@@ -17,7 +17,7 @@ public class minMax{
 
         }
         System.out.println("minimum value is ="+max+"\tmaximum value is="+min);
-
+        sc.close();
 
     }
 }

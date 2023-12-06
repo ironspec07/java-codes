@@ -31,5 +31,6 @@ public class binaryConversion {
         int n = sc.nextInt();
         //binToDec(n);
         decToBinary(n);
+        sc.close();
     }
 }

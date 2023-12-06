@@ -6,5 +6,6 @@ public class Greeting {
         System.out.println("enter a name ");
         String name=sc.nextLine();
         System.out.println("Hello "+name+", Have a good day");
+        sc.close();
     }
 }

@@ -10,6 +10,6 @@ public class Cgpa {
         System.out.println("cgpa is:- "+(double)((a+b+c)/30));
         else
             System.out.println("invalid marks");
-
+        sc.close();
     }
 }

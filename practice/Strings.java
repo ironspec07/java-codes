@@ -13,5 +13,6 @@ public class Strings {
         System.out.println(length);
         s=s.replace(' ','_');
         System.out.println("new string = "+s);
+        sc.close();
     }
 }

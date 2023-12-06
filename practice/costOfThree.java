@@ -10,5 +10,6 @@ public class costOfThree {
         System.out.println("total cost = "+ totalCost);
         float finalTotalCost = totalCost+0.18f *totalCost;
         System.out.println("total cost with gst = " + finalTotalCost);
+        sc.close();
     }
 }

@@ -6,5 +6,6 @@ public class KilometerToMiles {
         System.out.println("enter distance in kilometers");
         int dis=sc.nextInt();
         System.out.println("distance in miles = "+(dis/ 1.609));
+        sc.close();
     }
 }

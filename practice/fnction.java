@@ -49,6 +49,7 @@ public class fnction {
                 System.out.println("invalid input");
 
         }
+        sc.close();
 
     }
     public static int odd(int a){

@@ -14,5 +14,6 @@ public class greatestCommonDivisor {
             }
         }
         System.out.println("GCD is= "+ a);
+        sc.close();
     }
 }

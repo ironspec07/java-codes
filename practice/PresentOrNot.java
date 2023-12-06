@@ -16,5 +16,6 @@ public class PresentOrNot {
             System.out.println("present");
         else
             System.out.println("not present");
+            sc.close();
     }
 }

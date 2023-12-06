@@ -10,5 +10,6 @@ public class printEvenNumberTillN {
                 System.out.println(i);
             }
         }
+        sc.close();
     }
 }

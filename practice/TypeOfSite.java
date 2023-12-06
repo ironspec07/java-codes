@@ -10,5 +10,6 @@ public class TypeOfSite {
             System.out.println("indian site");
         if(site.endsWith(".org"))
             System.out.println("organisational site");
+        sc.close();
     }
 }

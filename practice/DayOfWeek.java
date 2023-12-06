@@ -23,6 +23,7 @@ public class DayOfWeek {
             default:
                 System.out.println("invalid input");
         }
+        sc.close();
 
 
     }

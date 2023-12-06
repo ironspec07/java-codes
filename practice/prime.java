@@ -18,5 +18,6 @@ public class prime {
         else {
             System.out.println("Not A Prime Number");
         }
+        sc.close();
     }
 }

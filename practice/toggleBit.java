@@ -8,5 +8,6 @@ public class toggleBit {
         int bitmask=1<<pos;
         int newnum=bitmask^n;//we toggle bits of a number using xor operator
         System.out.println("toggled number is="+newnum);
+        sc.close();
     }
 }

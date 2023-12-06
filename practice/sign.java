@@ -21,5 +21,6 @@ public class sign {
         System.out.println("number of +ve numbers are = "+b );
         System.out.println("number of -ve numbers are = "+c);
         System.out.println("number of zeros are = "+a);
+        sc.close();
     }
 }

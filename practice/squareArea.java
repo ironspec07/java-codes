@@ -6,5 +6,6 @@ public class squareArea {
         double s = sc.nextDouble();
         double area = s*s;
         System.out.println("Area of square is :"+ area);
+        sc.close();
     }
 }

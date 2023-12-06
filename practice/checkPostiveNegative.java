@@ -10,5 +10,6 @@ public class checkPostiveNegative {
             System.out.println("negative number");
         else
             System.out.println("zero");
+        sc.close();
     }
 }

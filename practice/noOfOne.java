@@ -14,5 +14,6 @@ public class noOfOne {
             }
         }
         System.out.println("no. of ones are "+c);
+        sc.close();
     }
 }

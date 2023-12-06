@@ -14,5 +14,6 @@ public class Tax_Slab {
         else{
             System.out.println("tax amt ="+(0.3*sal));
         }
+        sc.close();
     }
 }

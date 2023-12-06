@@ -32,5 +32,6 @@ public class monthName {
             default:
                 System.out.println("invalid input");break;
         }
+        sc.close();
     }
 }
