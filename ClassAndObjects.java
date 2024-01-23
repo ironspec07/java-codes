@@ -16,7 +16,7 @@ public class ClassAndObjects {
         int sum = calc.add(num1,num2);
         System.out.println("Sum is : "+sum);
 
-        int result = num1 + num2;
-        System.out.println(result);
+        // int result = num1 + num2;
+        // System.out.println(result);
     }
 }
