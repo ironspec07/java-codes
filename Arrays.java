@@ -1,6 +1,4 @@
 // Arrays are contiguous memory locations
-package lectures;
-
 import java.util.Scanner;
 
 public class Arrays {
