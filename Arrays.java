@@ -19,6 +19,10 @@ public class Arrays {
         for (int i = 0; i < marks.length; i++) {
             System.out.println(marks[i] + 1);
         }
+        // For each loop
+        for (int i : marks) {
+        System.out.println(i);
+        }        
         sc.close();
     }
 
