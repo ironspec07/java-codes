@@ -1,5 +1,14 @@
 public class Inheritance {
-    
+    public static void main(String[] args) {
+        int a=10;
+        int b=2;
+        Advcalc obj = new Advcalc();
+        System.out.println(obj.add(a, b));
+        System.out.println(obj.sub(a, b));
+        System.out.println(obj.multi(a, b));
+        System.out.println(obj.div(a, b));
+
+    }
 }
 /*
 
