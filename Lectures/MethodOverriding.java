@@ -1,26 +1,26 @@
-class A {
+class Aa {
 
     public void show() {
         System.out.println("in A show");
     }
 
     public void config() {
-        System.out.println("in A config");
+        System.out.println("in Aa config");
     }
 }
 
-class B extends A {
+class Bb extends Aa {
     public void show() {
-        System.out.println("in B show");
+        System.out.println("in Bb show");
     }
 }
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        // A obj = new A();
+        // Aa obj = new Aa();
         // obj.show();
 
-        B obj = new B();
+        Bb obj = new Bb();
         obj.show();
         obj.config();
     }

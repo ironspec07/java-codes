@@ -2,7 +2,7 @@
 // private variables are only accessable inside same class.
 
 // people should be able to acess the private variables but not directly.
-class Human{
+class HumanB{
     private int age ;
     private String name;
 

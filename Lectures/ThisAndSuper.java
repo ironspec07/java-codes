@@ -40,28 +40,28 @@ public class Demo {
 
 
 //this() 
-class A
+class A1
 {
-	public A() 
+	public A1() 
 	{
 		super();
 		System.out.println("in A");
 	}
-	public A(int n)
+	public A1(int n)
 	{
 		super();
 		System.out.println("in A int");
 	}
 }
 
-class B extends A
+class B1 extends A1
 {
-	public B()
+	public B1()
 	{
 		super();
 		System.out.println("in B");
 	}
-	public B(int n)
+	public B1(int n)
 	{
 		this();  //call constructor of same class
 		System.out.println("in B int");

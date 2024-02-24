@@ -1,4 +1,4 @@
-class Mobile {
+class Mob {
     
     String brand;// instance variable 
     static String name; // static variable
@@ -9,7 +9,7 @@ class Mobile {
         System.out.println("Price : " + price);
         System.out.println("Name : " + name);
     }
-    public static void show1(Mobile obj){
+    public static void show1(Mob obj){
         System.out.println("Brand : " + obj.brand);
         System.out.println("Price : " + obj.price);
         System.out.println("Name : " + name);
@@ -20,14 +20,14 @@ class Mobile {
 public class staticVar {
     public static void main(String[] args) {
         
-        Mobile obj1 = new Mobile();
+        Mob obj1 = new Mob();
         obj1.brand = "Apple";
-        Mobile.name = "iphone"; // static variables are called using class name 
+        Mob.name = "iphone"; // static variables are called using class name 
         obj1.price = 1500;
 
-        Mobile obj2 = new Mobile();
+        Mob obj2 = new Mob();
         obj2.brand = "Samsung";
-        Mobile.name = "galaxy";
+        Mob.name = "galaxy";
         obj2.price = 1000;
 
 // if we change a static variable all the objects using it will change as all objects are accessing the same variable. 
@@ -35,6 +35,6 @@ public class staticVar {
         obj1.show();
         obj2.show();
 
-        Mobile.show1(obj1);
+        Mob.show1(obj1);
     }
 }
