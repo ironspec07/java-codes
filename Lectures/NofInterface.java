@@ -49,18 +49,18 @@ public class Demo {
 }
 */
 
-interface Computer {
+interface Computer1 {
     void code();
 }
 
-class Laptop implements Computer {
+class Laptop implements Computer1 {
     public void code() {
         System.out.println("code, compile, run");
     }
 
 }
 
-class Desktop implements Computer {
+class Desktop implements Computer1 {
     public void code() {
         System.out.println("code, compile, faster");
     }
@@ -68,7 +68,7 @@ class Desktop implements Computer {
 
 class Developer {
     // public void devApp(Laptop lap)
-    public void devApp(Computer lap) {
+    public void devApp(Computer1 lap) {
         lap.code();
     }
 }
@@ -78,9 +78,9 @@ public class NofInterface {
         // Laptop lap=new Laptop();
         // Desktop desk=new Desktop();
 
-        Computer lap = new Laptop();
+        Computer1 lap = new Laptop();
         @SuppressWarnings("unused")
-        Computer desk = new Desktop();
+        Computer1 desk = new Desktop();
 
         Developer navin = new Developer();
         navin.devApp(lap);
