@@ -1,11 +1,11 @@
 @Deprecated
-class Ano {
+class Anot {
     public void showTheDataWhichBelongsToThisClass() {
         System.out.println("in show Ano");
     }
 }
 
-class BAno extends Ano {
+class BAno extends Anot {
     @Override
     // public void showTheDataWhichBelongToThisClass()
     public void showTheDataWhichBelongsToThisClass()

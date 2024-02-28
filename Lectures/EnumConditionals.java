@@ -1,11 +1,11 @@
-enum Status {
+enum Status1 {
     Running, Failed, Pending, Success;
 }
 
 public class EnumConditionals {
     public static void main(String[] args) {
 
-        Status s = Status.Pending;
+        Status1 s = Status1.Pending;
 
         switch (s) {
             case Running:
@@ -25,11 +25,11 @@ public class EnumConditionals {
                 break;
         }
 
-        if (s == Status.Running)
+        if (s == Status1.Running)
             System.out.println("All Good");
-        else if (s == Status.Failed)
+        else if (s == Status1.Failed)
             System.out.println("Try Again");
-        else if (s == Status.Pending)
+        else if (s == Status1.Pending)
             System.out.println("Please Wait");
         else
             System.out.println("Done");

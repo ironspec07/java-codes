@@ -1,14 +1,14 @@
-enum Laptop {
+enum Laptop1 {
     // Mackbook(2000), XPS(2200), Surface(1500), ThinkPad(1800);
     Mackbook(2000), XPS(2200), Surface, ThinkPad(1800);
 
     private int price;
 
-    private Laptop() {
+    private Laptop1() {
         price = 500;
     }
 
-    private Laptop(int price) {
+    private Laptop1(int price) {
         this.price = price;
     }
 
@@ -28,7 +28,7 @@ public class EnumClass {
         // Laptop lap=Laptop.Mackbook;
         // System.out.println(lap+ " : "+lap.getPrice());
 
-        for (Laptop lap : Laptop.values()) {
+        for (Laptop1 lap : Laptop1.values()) {
             System.out.println(lap + " : " + lap.getPrice());
         }
     }

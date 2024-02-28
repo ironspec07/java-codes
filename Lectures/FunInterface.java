@@ -1,3 +1,4 @@
+// Interface which has only one method.
 @FunctionalInterface
 interface funInter {
 	void show();

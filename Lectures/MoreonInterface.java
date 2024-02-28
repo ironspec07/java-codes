@@ -2,7 +2,7 @@
 // class - interface -> implements
 // interface - interface -> extends
 
-interface A {
+interface InterA {
     // public abstract void show();
     // public abstract void config();
     int age = 44; // final and static
@@ -13,15 +13,15 @@ interface A {
     void config();
 }
 
-interface X {
+interface InterX {
     void run();
 }
 
-interface Y extends X {
+interface InterY extends InterX {
 
 }
 
-class B implements A, Y {
+class InterB implements InterA, InterY {
     public void show() {
         System.out.println("in show");
     }
@@ -38,18 +38,18 @@ class B implements A, Y {
 public class MoreonInterface {
     public static void main(String[] args) {
 
-        A obj;
-        obj = new B();
+        InterA obj;
+        obj = new InterB();
 
         obj.show();
         obj.config();
 
-        X obj1 = new B();
+        InterX obj1 = new InterB();
         obj1.run();
 
         // A.area="Hyderabad";
 
-        System.out.println(A.area);
+        System.out.println(InterA.area);
 
     }
 }
