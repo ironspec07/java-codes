@@ -9,7 +9,7 @@ public class Cgpa {
         if(a<=100&&b<=100&&c<=100)
         System.out.println("cgpa is:- "+(double)((a+b+c)/30));
         else
-            System.out.println("invalid marks");
+            System.out.println("invalid marks!!");
         sc.close();
     }
 }
