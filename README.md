@@ -1,2 +1,2 @@
 # java-codes-
-this repo is for practising java programms.
+This repository is for practising java programms.
