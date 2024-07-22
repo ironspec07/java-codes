@@ -17,11 +17,11 @@ class Bb extends Aa {
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        // Aa obj = new Aa();
-        // obj.show();
+        Aa obj1 = new Aa();
+        obj1.show(); // in A show
 
         Bb obj = new Bb();
-        obj.show();
+        obj.show(); // in B show
         obj.config();
     }
 
@@ -74,8 +74,6 @@ public class MethodOverriding {
  * -- you can change access modifiers in this manner
  * private -default -protected -public (in upcoming lecture access modifiers has been discussed)
  * 
- * for knowing about access modifiers wait for access modifiers lecture in this
- * playlist
  * class A{
  * void show(){ // -- by default access modifier is default
  * System.out.println("A");
